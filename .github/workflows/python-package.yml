@@ -29,7 +29,7 @@ jobs:
       - name: Build binary wheel and a source tarball
         run: python setup.py sdist
       - name: storing artifact
-        uses: actions/upload-artfact@v2
+        uses: actions/upload-artifact@v2
         with:
-          name: my-artfact
+          name: my-artifact
       
